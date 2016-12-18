@@ -2,7 +2,7 @@
 
 A golang implementation for removing old images from ECR repositories.
 
-This script will inspect all running tasks, across all ECS clusters, ensuring only images that are not in-use (`RUNNING`) are removed.§
+This script will inspect all services/tasks, across all ECS clusters, removing only those images that are not in-use.
 
 Usage
 -----------------
