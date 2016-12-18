@@ -3,13 +3,10 @@ package services
 import (
 	"fmt"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ecr"
 )
-
-var log = logrus.New()
 
 // ECRClient holds a connection to AWS ECR.
 type ECRClient struct {
