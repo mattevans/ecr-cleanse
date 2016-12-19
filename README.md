@@ -40,3 +40,7 @@ INFO[0006] Repository: my.test.repository
 INFO[0006] [DRY RUN] `1` images would be purged
 INFO[0006] ----------------------------------------------------------------
 ```
+
+Contributing
+-----------------
+If you've found a bug or would like to contribute, please create an issue here on GitHub, or better yet fork the project and submit a pull request!
