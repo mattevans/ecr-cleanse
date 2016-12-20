@@ -6,7 +6,7 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/aws/aws-sdk-go/service/ecr"
-	"github.com/mattevans/ecr-cleaner-master/services"
+	"github.com/mattevans/ecr-cleanse/services"
 )
 
 var log = logrus.New()
