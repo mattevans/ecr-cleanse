@@ -1,5 +1,7 @@
 # ecr-cleanse
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/mattevans/ecr-cleanse)](https://goreportcard.com/report/github.com/mattevans/ecr-cleanse)
+
 The [documented limit](http://docs.aws.amazon.com/AmazonECR/latest/userguide/service_limits.html) to the number of images in an ECR repository is 1000. This is a golang implementation for removing unused images from your ECR repositories.
 
 This script will inspect all container services/tasks, across all ECS clusters, removing images that are not in-use (in [batches](http://docs.aws.amazon.com/AmazonECR/latest/APIReference/API_BatchDeleteImage.html) of 100).
