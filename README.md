@@ -1,6 +1,7 @@
 # ecr-cleanse
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/mattevans/ecr-cleanse)](https://goreportcard.com/report/github.com/mattevans/ecr-cleanse)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/mattevans/ecr-cleanse/blob/master/LICENSE)
 
 The [documented limit](http://docs.aws.amazon.com/AmazonECR/latest/userguide/service_limits.html) to the number of images in an ECR repository is 1000. This is a golang implementation for removing unused images from your ECR repositories.
 
